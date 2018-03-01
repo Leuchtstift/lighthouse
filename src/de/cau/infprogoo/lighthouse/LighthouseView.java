@@ -11,5 +11,11 @@ public class LighthouseView extends View {
 		// TODO Auto-generated method stub
 		
 	}
+
+	@Override
+	public void addController(Controller c) {
+		// TODO Auto-generated method stub
+		
+	}
 	
 }
