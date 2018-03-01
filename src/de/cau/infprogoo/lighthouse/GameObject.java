@@ -3,11 +3,12 @@ package de.cau.infprogoo.lighthouse;
 import java.awt.Color;
 
 public abstract class GameObject {
-	private double x = 0;
-	private double y = 0;
-	private double w = 0;
-	private double h = 0;
-	private Color c = null;
+	
+    protected int x = 0;
+    protected int y = 0;
+    protected int w = 0;
+    protected int h = 0;
+    protected Color c = null;
 	
 	/**
 	 * Creates a new GameObject.
@@ -17,7 +18,7 @@ public abstract class GameObject {
 	 * @param h height
 	 * @param c color
 	 */
-	public GameObject(double x, double y, double w, double h, Color c) {
+	public GameObject(int x, int y, int w, int h, Color c) {
 		this.x = x;
 		this.y = y;
 		this.w = w;
@@ -31,5 +32,30 @@ public abstract class GameObject {
 		this(0, 0, 0, 0, null);
 	}
 	
-	public abstract void update(double x, double y, double w, double h, Color c);
+	/**
+	 * Update method for the object.
+	 * @param x
+	 * @param y
+	 * @param w
+	 * @param h
+	 * @param c
+	 */
+	public abstract void update(int x, int y, int w, int h, Color c);
+	
+	
+	public int getX() {
+		return x;
+	}
+
+	public int getY() {
+		return y;
+	}
+
+	public int getW() {
+		return w;
+	}
+
+	public int getH() {
+		return h;
+	}
 }

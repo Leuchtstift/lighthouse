@@ -1,5 +1,12 @@
 package de.cau.infprogoo.lighthouse;
 
-public class Paddle {
+import java.awt.Color;
 
+public class Paddle extends GameObject {
+
+	@Override
+	public void update(int x, int y, int w, int h, Color c) {
+		// TODO Auto-generated method stub
+		
+	}
 }

@@ -4,7 +4,7 @@ public abstract class View {
 	/**
 	 * Reference to the game model.
 	 */
-	private Model model;
+	protected Model model;
 	
 	/**
 	 * Renders the model data.
@@ -12,6 +12,7 @@ public abstract class View {
 	 */
 	public abstract void render();
 	
+	public abstract void addController(Controller c);
 	/**
 	 * Constructor for the view.
 	 * @param model
@@ -20,4 +21,6 @@ public abstract class View {
 	public View(Model model) {
 		this.model = model;
 	}
+	
+	
 }
