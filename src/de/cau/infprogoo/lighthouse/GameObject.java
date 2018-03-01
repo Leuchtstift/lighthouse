@@ -3,11 +3,11 @@ package de.cau.infprogoo.lighthouse;
 import java.awt.Color;
 
 public abstract class GameObject {
-	private int x = 0;
-	private int y = 0;
-	private int w = 0;
-	private int h = 0;
-	private Color c = null;
+	protected int x = 0;
+	protected int y = 0;
+	protected int w = 0;
+	protected int h = 0;
+	protected Color c = null;
 	
 	/**
 	 * Creates a new GameObject.
