@@ -6,7 +6,6 @@ import java.awt.Graphics;
 
 import javax.swing.JFrame;
 
-
 public class DesktopViewSwing extends View {
 	
 	public static void main(String[] args) {
