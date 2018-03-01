@@ -7,7 +7,7 @@ import java.awt.Graphics;
 import javax.swing.JFrame;
 
 public class DesktopViewSwing extends View {
-	
+	//test
 	public static void main(String[] args) {
 		View v = new DesktopViewSwing(null);
 		while(true) {
